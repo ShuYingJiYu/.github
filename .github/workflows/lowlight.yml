@@ -25,9 +25,6 @@ jobs:
                   config_octicon: yes
                   config_timezone: Asia/Shanghai
 
-                  plugin_isocalendar: yes
-                  plugin_isocalendar_duration: half-year
-
                   plugin_languages: yes
                   plugin_languages_analysis_timeout: 15
                   plugin_languages_analysis_timeout_repositories: 7.5
@@ -47,3 +44,15 @@ jobs:
                   plugin_lines_sections: base
 
                   plugin_traffic: yes
+
+                  plugin_people: yes
+                  plugin_people_types: followers, contributors, stargazers, watchers, sponsors
+
+                  plugin_activity: yes
+                  plugin_activity_limit: 5
+                  plugin_activity_days: 0
+                  plugin_activity_filter: issue, pr, release, fork, review, ref/create
+
+                  plugin_code: yes
+                  plugin_code_languages: javascript, typescript, c, c++, python, java, vue
+                  plugin_code_load: 1000
